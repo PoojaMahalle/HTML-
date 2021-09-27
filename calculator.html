@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="calculator">
+       
+        <div class="top">
+            <span class="clear">C</span>
+            <div class="screen"></div>
+        </div>
+        
+        <div class="keys">
+           
+            <span value="7" onclick="calc(this.value)">7</span>
+            <span value="8" onclick="calc(this.value)">8</span>
+            <span value="9" onclick="calc(this.value)">9</span>
+            <span class="operator" value="+" onclick="calc(this.value)">+</span>
+            <span value="4" onclick="calc(this.value)">4</span>
+            <span value="5" onclick="calc(this.value)">5</span>
+            <span value="6" onclick="calc(this.value)">6</span>
+            <span class="operator" value="-" onclick="calc(this.value)">-</span>
+            <span value="1" onclick="calc(this.value)">1</span>
+            <span value="2" onclick="calc(this.value)">2</span>
+            <span value="3" onclick="calc(this.value)">3</span>
+            <span class="operator" value="+" onclick="calc(this.value)">÷</span>
+            <span value="0" onclick="calc(this.value)">0</span>
+            <span value="." onclick="calc(this.value)">.</span>
+            <span class="eval" value="=" onclick="calc(this.value)">=</span>
+            <span class="operator" value="x" onclick="calc(this.value)">x</span>
+        </div>
+    </div>
+
+    <script>
+        function calc(no) {
+            var keys = document.getElementById("screen");
+        }
+
+    </script>
+</body>
+</html>
